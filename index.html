@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(30, 54%, 90%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .todo{
+      background-color: hsl(0, 0%, 100%);
+      width: 650px;
+      height: 1442px;
+      border: 0px solid ;
+      border-radius: 10px;
+      
+    }
+
+    .deltodo{
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+
+    .primero{
+     margin-left: 20px;
+    }
+
+    .preparation{
+      width: 590px;
+      height: 140px;
+      margin-left: 20px;
+      border-radius: 10px;
+      background-color: hsl(330, 100%, 98%);
+    }
+
+    .ingredientes{
+      margin-left: 20px;
+    }
+
+    .introduccion{
+      margin-left: 20px;
+    }
+
+    .nutrition{
+      margin-left: 20px;
+    }
+
+    .imagen{
+      width: 590px;
+      margin-top: 30px;
+      margin-left: 10px;
+      border-radius: 10px;
+    }
+
+    p{
+      color: gray;
+    }
+
+    
+
+    li{
+      margin-bottom: 10px;
+    }
+
+    .h33{
+      margin-left: 20px;
+    }
+
+    .table{
+      width: 100%;
+      
+  }
+  
+  td{
+      width: 5%;
+      padding: 10px; 
+      border-bottom: 1px solid #ddd;;
+  }
+
+  ul{
+    color: brown;
+  }
+
+  ol{
+    color: brown;
+  }
+
+  p{
+    color: black;
+  }
+  </style>
+</head>
+<body>
+<div class="todo">
+  <div class="deltodo">
+    <img src="image-omelette.jpeg" alt="s" class="imagen">
+  <div class="primero"> 
+    <h1>Simple Omelette Recipe</h1>
+
+    <p class="easy">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+    to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+  </div>
+  
+    <div class="preparation">
+      <h3 style="color: brown" class="h33">Preparation time</h3>
+      <ul>
+        <li><strong><p>Total:</strong> Approximately 10 minutes</p></li>
+        <li><strong><p>Preparation:</strong> 5 minutes</p></li>
+        <li><strong><p>Cooking:</strong> 5 minutes</p></li>
+    </ul>
+    </div>
+<hr>
+    <div class="ingredientes">
+      <h2 style="color:  brown;">Ingredients</h2>
+      <ul>
+      <li><p>2-3 large eggs</p></li>
+      <li><p>Salt, to taste</p></li>
+        <li> <p>Pepper, to taste</p></li> 
+        <li> <p>1 tablespoon of butter or oil</p></li>
+          <li><p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p></li>
+      </ul>
+    </div>
+<hr>
+    <div class="introduccion">
+    <h2 style="color: brown;">Instructions</h2>
+     <ol>
+        <li><b><p>Beat the eggs:</b>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+          You can add a tablespoon of water or milk for a fluffier texture.</p></li>
+        <li><b><p>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+        <li><b><p>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+          the eggs evenly coat the surface.</p></li>
+        <li><b><p>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the 
+          middle, sprinkle your chosen fillings over one half of the omelette.</p></li>
+        <li><b><p>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the 
+          fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
+        <li><b><p>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</p></li> 
+      </ol>
+    </div>
+<hr>
+    <div class="nutrition">
+    <h2 style="color: brown;">Nutrition</h2>
+     <h5>The table below shows nutritional values per serving without the additional fillings.</h5>
+    <table>
+      <tr class="calorias">
+        <td>Calories</td>
+        <td style="color: brown;"><b>277kcal</b></td>
+      </tr>
+      <tr class="carbs">
+        <td>Carbs</td>
+        <td style="color: brown;"><b>0g</b></td>
+      </tr>
+      <tr class="proteina">
+        <td>Protein</td>
+        <td style="color: brown;"><b>20g</b></td>
+      </tr>
+        <tr class="fat">
+          <td>Fat</td>
+          <td style="color: brown;"><b>22g</b></td>
+        </tr>
+        
+    </table>
+    </div>
+  </div>
+</div>
+
+ 
+</body>
+</html>
